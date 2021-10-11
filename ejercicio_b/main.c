@@ -11,7 +11,7 @@
 
 char frec, ciclodet, presc;
 
-int frecuencia, tiempo_on;
+int frecuencia, tiempo_on, estado=0;
 
 void pwmON(frec, ciclodet){
     T2CONbits.TMR2ON = 1;
